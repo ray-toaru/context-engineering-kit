@@ -1,0 +1,27 @@
+{
+  "name": "sdd",
+  "version": "3.0.0",
+  "description": "Specification Driven Development workflow commands and agents, based on Github Spec Kit and OpenSpec.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/sdd",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["specification", "planning", "implementation", "arc42"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SDD",
+    "shortDescription": "Specification-driven task planning and implementation",
+    "longDescription": "Specification-driven workflows for brainstorming, task drafting, planning, implementation, and idea generation with specialized agents.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/sdd",
+    "defaultPrompt": ["Plan and implement this feature through an SDD workflow"],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

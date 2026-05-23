@@ -1,0 +1,27 @@
+{
+  "name": "tech-stack",
+  "version": "3.0.0",
+  "description": "Commands for setup or update of project best practices for specific language or framework.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/tech-stack",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["typescript", "best-practices", "tech-stack", "rules"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tech Stack",
+    "shortDescription": "Language and framework best practices",
+    "longDescription": "Technology-specific best-practice rules, currently including TypeScript guidance for type safety, async code, and quality patterns.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/tech-stack",
+    "defaultPrompt": ["Apply TypeScript best practices to this change"],
+    "brandColor": "#3178C6",
+    "screenshots": []
+  }
+}

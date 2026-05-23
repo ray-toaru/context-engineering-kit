@@ -1,0 +1,27 @@
+{
+  "name": "sadd",
+  "version": "3.0.0",
+  "description": "Introduces skills for subagent-driven development, dispatches fresh subagent for each task with code review between tasks.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/sadd",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["subagents", "judge", "parallel", "debate", "tree-of-thoughts"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SADD",
+    "shortDescription": "Subagent-driven development and judge workflows",
+    "longDescription": "Subagent-driven development patterns for parallel execution, independent judging, competitive generation, and stepwise implementation.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/sadd",
+    "defaultPrompt": ["Execute this task with a judge-reviewed subagent workflow"],
+    "brandColor": "#8B5CF6",
+    "screenshots": []
+  }
+}

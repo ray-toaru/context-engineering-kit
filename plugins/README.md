@@ -1,6 +1,6 @@
 # Context Engineering Kit Plugins
 
-This directory contains hand-crafted Claude Code plugins focused on improving agent result quality.
+This directory contains hand-crafted plugins focused on improving agent result quality. Each plugin can include Claude Code metadata in `.claude-plugin/plugin.json` and Codex metadata in `.codex-plugin/plugin.json`.
 
 ## Plugin Structure
 
@@ -8,28 +8,38 @@ Each plugin should follow this structure:
 
 ```
 plugin-name/
-├── plugin.json          # Plugin manifest
+├── .claude-plugin/      # Claude Code manifest
+├── .codex-plugin/      # Codex manifest
 ├── README.md           # Plugin documentation
 ├── commands/           # Slash commands (optional)
 └── skills/            # Skills definitions (optional)
 ```
 
-## Plugin Manifest (plugin.json)
+## Codex Plugin Manifest (.codex-plugin/plugin.json)
 
 ```json
 {
   "name": "plugin-name",
   "version": "1.0.0",
   "description": "Brief description of what the plugin does",
-  "author": "Your Name",
-  "tokens": {
-    "estimated": 500,
-    "description": "Token usage explanation"
+  "author": {
+    "name": "Your Name"
   },
-  "commands": [],
-  "skills": []
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Plugin Name",
+    "shortDescription": "Short user-facing description",
+    "longDescription": "Longer description for plugin details",
+    "developerName": "Your Name",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["Use this plugin for the current task"],
+    "screenshots": []
+  }
 }
 ```
+
+The repo-local Codex marketplace lives at `.agents/plugins/marketplace.json` and points to each plugin under `./plugins/<plugin-name>`.
 
 ## Getting Started
 

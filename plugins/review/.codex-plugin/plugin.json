@@ -1,0 +1,27 @@
+{
+  "name": "review",
+  "version": "3.0.0",
+  "description": "Introduce codebase and PR review commands and skills using multiple specialized agents.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/review",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["code-review", "pull-request", "quality", "security"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Review",
+    "shortDescription": "Review local changes and pull requests",
+    "longDescription": "Code review workflows using specialized reviewers for bugs, security, contracts, test coverage, and maintainability.",
+    "developerName": "NeoLabHQ",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/review",
+    "defaultPrompt": ["Review my local changes for bugs and regressions"],
+    "brandColor": "#0EA5E9",
+    "screenshots": []
+  }
+}

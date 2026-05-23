@@ -60,7 +60,25 @@ Install any plugin, for example reflexion:
 
 Each installed plugin loads only its specific agents, commands, and skills into Claude's context.
 
-#### Cursor, Antigravity, Codex, OpenCode and others
+#### Codex
+
+This repository also includes Codex plugin manifests and a repo-local Codex marketplace at `.agents/plugins/marketplace.json`.
+
+Add the marketplace from a local checkout:
+
+```bash
+codex plugin marketplace add /path/to/context-engineering-kit
+```
+
+Then install a plugin, for example reflexion:
+
+```bash
+codex plugin add reflexion@context-engineering-kit
+```
+
+Codex loads the plugin skills from each plugin's `skills/` directory. The `ddd` and `tech-stack` rule-only plugins include Codex skill wrappers so their rule files are discoverable during coding and review tasks.
+
+#### Cursor, Antigravity, OpenCode and others
 
 Run the [vercel-labs/skills](https://github.com/vercel-labs/skills) command in your terminal:
 

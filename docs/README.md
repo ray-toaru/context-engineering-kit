@@ -4,7 +4,7 @@ icon: brain-circuit
 
 # Context Engineering Kit
 
-The Context Engineering Kit (CEK) is a curated marketplace of advanced context engineering techniques and patterns designed specifically for Claude Code. It provides prompts for extensibly tested and benchmarked techniques that enhance LLM output quality, specifically focusing on code generation, research and problem solving.
+The Context Engineering Kit (CEK) is a curated marketplace of advanced context engineering techniques and patterns for agentic coding tools including Claude Code and Codex. It provides prompts for extensibly tested and benchmarked techniques that enhance LLM output quality, specifically focusing on code generation, research and problem solving.
 
 ## Key Features
 
@@ -16,7 +16,7 @@ The Context Engineering Kit (CEK) is a curated marketplace of advanced context e
 
 ## IDEs and CLIs support
 
-Currently this project support only Claude Code CLI, but we plan to support other IDEs and CLIs in the future. For now you can simply copy paste prompt files in your projects. Alternatively, any support PRs are welcome.
+The repository includes Claude Code marketplace metadata and Codex plugin manifests. Other IDEs and CLIs can use the agentskills.io skill files directly or through compatible installers.
 
 ## Getting Started
 

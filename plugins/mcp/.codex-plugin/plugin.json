@@ -1,0 +1,27 @@
+{
+  "name": "mcp",
+  "version": "3.0.0",
+  "description": "Commands for setup of well known MCP server integrations and project instructions for using them.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/mcp",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["mcp", "context7", "serena", "arxiv", "codemap"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MCP",
+    "shortDescription": "Set up recommended MCP integrations",
+    "longDescription": "MCP setup workflows for Context7, Serena, arXiv, Codemap CLI, and custom MCP server development.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/mcp",
+    "defaultPrompt": ["Set up the right MCP server for this project"],
+    "brandColor": "#64748B",
+    "screenshots": []
+  }
+}

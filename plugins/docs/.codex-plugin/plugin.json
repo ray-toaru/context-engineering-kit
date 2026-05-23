@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "3.0.0",
+  "description": "Commands for analysing project, writing and refining documentation.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/docs",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["documentation", "writing", "docs", "concise"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docs",
+    "shortDescription": "Update docs and write concise documentation",
+    "longDescription": "Documentation workflows for updating project docs after code changes and improving human-facing writing quality.",
+    "developerName": "NeoLabHQ",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/docs",
+    "defaultPrompt": ["Update the documentation for my local changes"],
+    "brandColor": "#06B6D4",
+    "screenshots": []
+  }
+}

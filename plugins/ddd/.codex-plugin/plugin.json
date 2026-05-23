@@ -1,0 +1,27 @@
+{
+  "name": "ddd",
+  "version": "3.0.0",
+  "description": "Introduces best practices for domain-driven development, Clean Architecture, SOLID principles, and other design patterns.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/ddd",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["ddd", "clean-architecture", "solid", "code-quality"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DDD",
+    "shortDescription": "Domain-driven design and Clean Architecture rules",
+    "longDescription": "Code design rules for DDD, Clean Architecture, SOLID, explicit data flow, error handling, naming, and maintainable boundaries.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/ddd",
+    "defaultPrompt": ["Review this design against DDD and Clean Architecture rules"],
+    "brandColor": "#14B8A6",
+    "screenshots": []
+  }
+}

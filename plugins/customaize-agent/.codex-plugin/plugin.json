@@ -1,0 +1,27 @@
+{
+  "name": "customaize-agent",
+  "version": "3.0.0",
+  "description": "Commands and skills for writing and refining commands, hooks, skills for Claude Code, including best practices and agent persuasion principles.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/customaize-agent",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["agents", "skills", "prompts", "commands", "evaluation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Customaize Agent",
+    "shortDescription": "Create and test agent skills, prompts, and commands",
+    "longDescription": "Agent customization workflows for creating skills, agents, commands, hooks, workflow commands, and prompt evaluations.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/customaize-agent",
+    "defaultPrompt": ["Create and test a new agent skill"],
+    "brandColor": "#EC4899",
+    "screenshots": []
+  }
+}

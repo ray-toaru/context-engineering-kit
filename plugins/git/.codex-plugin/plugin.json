@@ -1,0 +1,27 @@
+{
+  "name": "git",
+  "version": "3.0.0",
+  "description": "Introduces commands for commit and PRs creation, plus skills for git worktrees and notes.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/git",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["git", "github", "pull-request", "commit", "worktree"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git",
+    "shortDescription": "Commit, PR, issue, note, and worktree workflows",
+    "longDescription": "Git workflows for preparing commits, creating pull requests, analyzing issues, adding review comments, and managing worktrees or notes.",
+    "developerName": "NeoLabHQ",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/git",
+    "defaultPrompt": ["Create a clean commit and prepare a pull request"],
+    "brandColor": "#F97316",
+    "screenshots": []
+  }
+}

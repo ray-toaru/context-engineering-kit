@@ -1,0 +1,27 @@
+{
+  "name": "tdd",
+  "version": "3.0.0",
+  "description": "Introduces commands for test-driven development, common anti-patterns and skills for testing using subagents.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/tdd",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["testing", "tdd", "test-coverage", "fix-tests"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TDD",
+    "shortDescription": "Write tests first, add coverage, and fix failing tests",
+    "longDescription": "Testing workflows for test-driven development, focused test coverage, and systematic repair of failing test suites.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/tdd",
+    "defaultPrompt": ["Implement this change using test-driven development"],
+    "brandColor": "#22C55E",
+    "screenshots": []
+  }
+}

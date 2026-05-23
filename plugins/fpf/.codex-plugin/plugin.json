@@ -1,0 +1,27 @@
+{
+  "name": "fpf",
+  "version": "3.0.0",
+  "description": "First Principles Framework for structured reasoning using ADI cycles for hypothesis generation, verification, validation, and decisions.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/fpf",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["first-principles", "reasoning", "hypotheses", "decision"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FPF",
+    "shortDescription": "First-principles reasoning and decision workflows",
+    "longDescription": "Structured reasoning workflows for generating hypotheses, verifying logic, validating evidence, auditing trust, and making decisions.",
+    "developerName": "NeoLabHQ",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/fpf",
+    "defaultPrompt": ["Analyze this decision with first-principles reasoning"],
+    "brandColor": "#10B981",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "context-engineering-kit",
+  "interface": {
+    "displayName": "Context Engineering Kit"
+  },
+  "plugins": [
+    {
+      "name": "reflexion",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reflexion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "git",
+      "source": {
+        "source": "local",
+        "path": "./plugins/git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tdd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "sadd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sadd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "ddd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ddd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "sdd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "kaizen",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kaizen"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "customaize-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/customaize-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "docs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tech-stack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tech-stack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "fpf",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fpf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}

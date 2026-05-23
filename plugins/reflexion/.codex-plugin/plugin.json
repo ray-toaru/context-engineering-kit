@@ -1,0 +1,27 @@
+{
+  "name": "reflexion",
+  "version": "3.0.0",
+  "description": "Collection of commands that force LLM to reflect on previous response and output. Based on papers like Self-Refine and Reflexion.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/reflexion",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["reflection", "self-refine", "review", "memory"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Reflexion",
+    "shortDescription": "Reflect, critique, and memorize implementation lessons",
+    "longDescription": "Self-refinement workflows for reviewing agent output, finding missed requirements, improving work, and preserving lessons in memory.",
+    "developerName": "NeoLabHQ",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/reflexion",
+    "defaultPrompt": ["Reflect on the last implementation and fix important issues"],
+    "brandColor": "#6366F1",
+    "screenshots": []
+  }
+}

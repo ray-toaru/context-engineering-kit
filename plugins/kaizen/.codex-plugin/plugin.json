@@ -1,0 +1,27 @@
+{
+  "name": "kaizen",
+  "version": "3.0.0",
+  "description": "Inspired by continuous improvement, Agile and Lean practices. Introduces commands for root cause and process analysis.",
+  "author": {
+    "name": "Vlad Goncharov",
+    "email": "vlad.goncharov@neolab.finance",
+    "url": "https://github.com/NeoLabHQ"
+  },
+  "homepage": "https://cek.neolab.finance/plugins/kaizen",
+  "repository": "https://github.com/NeoLabHQ/context-engineering-kit",
+  "license": "GPL-3.0",
+  "keywords": ["kaizen", "root-cause", "five-whys", "continuous-improvement"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kaizen",
+    "shortDescription": "Root cause analysis and continuous improvement",
+    "longDescription": "Problem analysis workflows including Five Whys, fishbone analysis, PDCA, root cause tracing, and continuous improvement.",
+    "developerName": "NeoLabHQ",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://cek.neolab.finance/plugins/kaizen",
+    "defaultPrompt": ["Analyze this issue with root cause analysis"],
+    "brandColor": "#D946EF",
+    "screenshots": []
+  }
+}

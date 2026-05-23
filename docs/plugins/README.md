@@ -4,7 +4,7 @@ icon: grid-4
 
 # Plugins
 
-This directory contains comprehensive documentation for all 13 plugins in the Context Engineering Kit. Each plugin is designed to enhance Claude Code with specific capabilities focused on code quality, development workflows, and continuous improvement.
+This directory contains comprehensive documentation for all 13 plugins in the Context Engineering Kit. Each plugin is designed to enhance agentic coding tools, including Claude Code and Codex, with specific capabilities focused on code quality, development workflows, and continuous improvement.
 
 ## Quick Navigation
 
@@ -24,7 +24,7 @@ This directory contains comprehensive documentation for all 13 plugins in the Co
 
 ## Installation
 
-All plugins follow the same installation pattern:
+Claude Code plugins follow this installation pattern:
 
 ```bash
 # Add the marketplace (one-time setup)
@@ -32,6 +32,13 @@ All plugins follow the same installation pattern:
 
 # Install a specific plugin
 /plugin install <plugin-name>@NeoLabHQ/context-engineering-kit
+```
+
+Codex plugins are available from the repo-local marketplace:
+
+```bash
+codex plugin marketplace add /path/to/context-engineering-kit
+codex plugin add <plugin-name>@context-engineering-kit
 ```
 
 See individual plugin documentation for specific installation commands and verification steps.

@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide will help you install Context Engineering Kit to your Claude Code
-  and start using plugins.
+  This guide will help you install Context Engineering Kit to Claude Code or
+  Codex and start using plugins.
 icon: rocket
 ---
 
@@ -11,13 +11,14 @@ icon: rocket
 
 Before you begin, ensure you have:
 
-**Claude Code installed** - The official CLI tool from Anthropic
+**Claude Code or Codex installed** - Use the agent CLI where you want to install the marketplace
 
-* If not installed, visit [Claude Code documentation](https://docs.anthropic.com/claude/docs/claude-code) for installation instructions
+* For Claude Code, visit [Claude Code documentation](https://docs.anthropic.com/claude/docs/claude-code) for installation instructions
+* For Codex, install and authenticate the Codex CLI first
 
 ## Quick Start
 
-### Step 1: Add the Marketplace
+### Step 1: Add the Marketplace in Claude Code
 
 First, launch Claude Code:
 
@@ -45,6 +46,22 @@ Then add the Context Engineering Kit marketplace to make all plugins available:
 ```
 
 You should see a list of available plugins from the marketplace, including reflexion, review, git, sdd, and others.
+
+### Codex Installation
+
+Context Engineering Kit also ships Codex manifests for every plugin. From a local checkout, add the repo-local Codex marketplace:
+
+```bash
+codex plugin marketplace add /path/to/context-engineering-kit
+```
+
+Then install a plugin:
+
+```bash
+codex plugin add reflexion@context-engineering-kit
+```
+
+Codex discovers plugin skills through `.codex-plugin/plugin.json`. Plugins that were rule-only in Claude Code, such as `ddd` and `tech-stack`, include Codex skill wrappers so their rules can be invoked by name.
 
 ### Step 2: Install Your First Plugin
 
