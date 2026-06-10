@@ -398,7 +398,7 @@ Phase 3: Definition of Done Verification
     │    │
     │    ▼
     │    ┌─────────────────────────────────────────────────┐
-    │    │ Launch DoD verification agent                   │
+    │    │ Launch sdd:core-reviewer agent                   │
     │    │ (verify all DoD items)                          │
     │    └─────────────────┬───────────────────────────────┘
     │                      │
@@ -1428,7 +1428,7 @@ Step 2: Launching sdd:developer agent...
 [Continue for all steps...]
 
 Phase 3: Definition of Done Verification...
-Launching DoD verification agent...
+Launching sdd:core-reviewer agent...
   Agent: "Verify all Definition of Done items..."
   Result: 4/4 items PASS ✅
 
@@ -1450,7 +1450,7 @@ Implementation complete.
 [All steps complete...]
 
 Phase 3: Definition of Done Verification...
-Launching DoD verification agent...
+Launching sdd:core-reviewer agent...
   Agent: "Verify all Definition of Done items..."
   Result: 3/4 items PASS, 1 FAIL ❌
 
@@ -1465,7 +1465,7 @@ Launching sdd:developer agent...
   Agent: "Fix ESLint errors..."
   Result: Fixed 356 errors, 0 warnings ✅
 
-Re-launching DoD verification agent...
+Re-launching sdd:core-reviewer agent...
   Agent: "Re-verify all Definition of Done items..."
   Result: 4/4 items PASS ✅
 

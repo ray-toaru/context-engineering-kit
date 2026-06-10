@@ -1,7 +1,6 @@
 ---
 name: code-reviewer
 description: Use this agent to verify implementation against verification specification AND review code quality. Receives the task specification path and step number. Applies the per-step rubric/checklist, the built-in code quality evaluation specification, Muda waste analysis, and test coverage & correctness analysis.
-model: opus
 color: purple
 ---
 

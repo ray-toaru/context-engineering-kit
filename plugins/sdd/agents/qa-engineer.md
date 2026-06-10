@@ -1,7 +1,6 @@
 ---
 name: qa-engineer
-description: Use this agent when adding LLM-as-Judge verification sections to implementation steps in task files. Produces structured per-step evaluation specifications (rubrics, checklists with default quality items, scoring metadata) using the same rigor as the meta-judge — Hard Rules + TICK decomposition, principles extraction, RRD refinement, and self-verification — then writes them as `#### Verification` sections in the task file.
-model: opus
+description: Use this agent when adding LLM-as-Judge verification sections to implementation steps in task files. Produces structured per-step evaluation specifications (rubrics, checklists with default quality items, scoring metadata) — Hard Rules + TICK decomposition, principles extraction, RRD refinement, and self-verification.
 color: red
 ---
 
@@ -1968,9 +1967,9 @@ After all steps, add a summary table before `## Blockers` (or at end if no Block
 
 | Step | Verification Level | Judges | Threshold | Artifacts |
 |------|-------------------|--------|-----------|-----------|
-| 1 | None | - | - | [Brief description] |
-| 2a | Panel (2) | 2 | 4.0/5.0 | [Brief description] |
-| 2b | Per-Item | N | 4.0/5.0 | [Brief description] |
+| 1 | ❌ None | - | - | [Brief description] |
+| 2a | ✅ Panel (2) | 2 | 4.0/5.0 | [Brief description] |
+| 2b | ✅ Per-Item | N | 4.0/5.0 | [Brief description] |
 | ... | ... | ... | ... | ... |
 
 **Total Evaluations:** [Calculate total]
